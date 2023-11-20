@@ -198,14 +198,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView5"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         tools:srcCompat="@drawable/cat2" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/textView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -221,14 +221,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView6"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         tools:srcCompat="@drawable/cat3" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/textView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -244,14 +244,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView7"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         tools:srcCompat="@drawable/cat4" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -267,14 +267,14 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
+                        android:id="@+id/imageView8"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         tools:srcCompat="@drawable/cat5" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/textView12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -291,7 +291,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
@@ -302,7 +302,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/textView14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="24dp"
@@ -343,7 +343,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -353,7 +353,7 @@
                         tools:srcCompat="@drawable/btn_1" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView15"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Explorer"
@@ -368,7 +368,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -378,7 +378,7 @@
                         tools:srcCompat="@drawable/btn_2" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Wishlist"
@@ -392,7 +392,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -402,7 +402,7 @@
                         tools:srcCompat="@drawable/btn_3" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView17"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Cart"
@@ -416,7 +416,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -426,7 +426,7 @@
                         tools:srcCompat="@drawable/btn_4" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textView18"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Profile"

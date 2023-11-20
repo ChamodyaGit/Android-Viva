@@ -5,4 +5,5 @@
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
         <item name="colorPrimaryDark">@color/green</item>
     </style>
+    <style name="Theme.CtagApp" parent="Base.Theme.CtagApp"/>
 </resources>
