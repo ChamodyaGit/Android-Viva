@@ -1,6 +1,7 @@
 package lk.ctag.ctagapp.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,7 @@ import com.bumptech.glide.load.resource.bitmap.GranularRoundedCorners;
 
 import java.util.ArrayList;
 
+import lk.ctag.ctagapp.Activity.DetailActivity;
 import lk.ctag.ctagapp.Domain.PopularDomain;
 import lk.ctag.ctagapp.R;
 
@@ -46,6 +48,11 @@ public class PupolarAdapter extends RecyclerView.Adapter<PupolarAdapter.Viewhold
                 .transform(new GranularRoundedCorners(30,30,0,0))
                 .into(holder.pic);
 
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(holder.itemView.getContext(), DetailActivity.class);
+            intent.putExtra("object", items.get(position));
+            holder.itemView.getContext().startActivity(intent);
+        });
     }
 
     @Override
